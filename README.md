@@ -38,5 +38,5 @@ Outputs a **minimal JSON** containing:
 
 ```bash
 git clone https://github.com/oyelaa99/log_parser_code.git
-cd pfsense-firewall-decoder
+cd log_parser_code
 chmod +x firewall_log_parser.py
