@@ -7,7 +7,9 @@ in your pfsense web interface.
 go to status/system logs/settings/ at the buttom you will see **Remote log servers** 
 put the ip of the machine where your are going to run the script and the port 514  below you'll see **Remote Syslog Contents** 
 check **Firewall Events** and save the change now you can go in your machine and run the python code . 
-you will see the following information 
+you will see the following information .
+
+<img width="521" height="796" alt="Image" src="https://github.com/user-attachments/assets/fe4cb953-4d7a-41f1-81d4-008f26387ddd" />
 
 
 
