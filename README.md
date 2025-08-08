@@ -1,6 +1,16 @@
 # pfsense_log_parser
 
 
+
+before the installation you should configure pfsense to send filter log (firewall log ) to the machine where you are going to run the code 
+in your pfsense web interface.
+go to status/system logs/settings/ at the buttom you will see **Remote log servers** 
+put the ip of the machine where your are going to run the script and the port 514  below you'll see **Remote Syslog Contents** 
+check **Firewall Events** and save the change now you can go in your machine and run the python code . 
+you will see the following information 
+
+
+
 # pfSense Firewall Log  - Minimal JSON Format
 
 A Python script to decode **pfSense firewall syslog messages** received via UDP port 514.  
